@@ -1,0 +1,33 @@
+OVERVIEW:
+This folder contains datasets used for analyzing the Canadian 3800 MHz spectrum auction. The files include bidder activity, bidding behavior, price evolution across rounds, product-level characteristics, and deployment cost information. The datasets support research on bidding strategies, valuation estimation, deployment incentives, and counterfactual auction simulations.
+
+The information is based on ISED’s public auction releases and additional processed files prepared for analysis.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FILE DESCRIPTIONS
+
+3800_all-bidder-clock-round-status.csv
+This file contains bidder eligibility, activity levels, and status updates across all clock rounds. It is used to understand participation patterns and eligibility reduction over time.
+
+3800_all-clock-round-bids.csv
+This file includes all bids placed by all companies in each round. It is used for extracting bidder strategies, sequences of bundles, and valuation-related information.
+
+3800_all-clock-round-results.csv
+This file provides round results including posted prices, clock prices, aggregate demand, and increment percentages. It is used to reconstruct price evolution and identify overdemanded products.
+
+3800_product-status.csv
+This file contains product supply, start prices, posted prices, and clock prices for every round. It is used for calculating bundle costs and analyzing price trajectories for each product.
+
+Service Deployment Cost Model.xlsx
+This spreadsheet contains cost estimates for deploying spectrum services, including tower construction, equipment, and operating costs. It is used to model deployment-related expenses.
+
+Tier 4 Deployment Requirements Met By Categorization.xlsx
+This spreadsheet contains deployment thresholds and population information for service areas, including rural, remote, and urban classification. It is used to evaluate deployment coverage.
+
+Tower Deployment_Replacement Costs.xlsx
+This spreadsheet provides costs associated with tower construction or replacement. It is used for integrating infrastructure costs into valuation or deployment models.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+INTENDED USES
+These files can be used to study bidding behavior, reconstruct price adjustments, simulate counterfactual auction outcomes, analyze deployment incentives, and evaluate population coverage or cost structures.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CITATION
+If using these datasets in academic work, please cite as:
